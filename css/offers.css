@@ -12,6 +12,7 @@
   display: block;
   background-color: transparent;
   position: static;
+  padding: 10px;
 }
 .card p {
   font-size: 20px;
