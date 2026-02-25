@@ -12,7 +12,7 @@
   display: block;
   background-color: transparent;
   position: static;
-  padding: 10px;
+  padding: 0;
 }
 .card p {
   font-size: 20px;
@@ -27,4 +27,18 @@
   display: inline-block;
   font-size: 32px;
   margin-top: 24px;
+}
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 588px;
+    height: 308px;
+  }
+  .card h3 {
+    font-size: 48px;
+  }
+  .card span {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 24px;
+  }
 }
