@@ -53,6 +53,20 @@
   background-size: cover;
 }
 
+.card.pacotes-nacionais {
+  background-color: var(--background-primary-color);
+  margin: 0;
+}
+.card.pacotes-nacionais h3 {
+  color: var(--text-primary-color);
+  font-size: 28px;
+}
+.img-busca {
+  width: 80px;
+  height: 80px;
+  margin-top: 41px;
+}
+
 @media screen and (min-width: 768px) {
   .offers-cards {
     flex-direction: row;
