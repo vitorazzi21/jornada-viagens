@@ -13,6 +13,7 @@
   background-color: transparent;
   position: static;
   padding: 0;
+  margin-bottom: 24px;
 }
 .card p {
   font-size: 20px;
@@ -38,7 +39,5 @@
   }
   .card span {
     font-size: 40px;
-    display: block;
-    margin-bottom: 24px;
   }
 }
