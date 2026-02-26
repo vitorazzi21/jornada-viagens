@@ -5,3 +5,44 @@
   padding: 0;
   margin-bottom: 24px;
 }
+.img-item.Tokyo {
+  width: 312px;
+  height: 360px;
+  background: url(../img/tokyo-mobile.jpg) no-repeat;
+  margin: 0 auto;
+}
+.item header {
+  font-weight: var(--titles-weight);
+  font-size: 28px;
+  margin: 0 24px;
+}
+.item p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  color: var(--text-primary-color);
+  margin: 0 24px;
+}
+.item .button {
+  display: inline-block;
+  width: 312px;
+  height: 64px;
+  color: var(--text-secundary-color);
+  font-weight: var(--titles-weight);
+  font-size: 20px;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  text-decoration: none;
+  line-height: 64px;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 0;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.img-item.osaka {
+  width: 312px;
+  height: 360px;
+  background: url(../img/osaka-mobile.jpg) no-repeat;
+  margin: 0 auto;
+}
